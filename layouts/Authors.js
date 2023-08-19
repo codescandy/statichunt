@@ -1,4 +1,4 @@
-import { markdownify } from "@lib/utils/textConverter";
+import { markdownify } from "@/lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
 import Gravatar from "react-gravatar";
@@ -39,7 +39,7 @@ const Authors = ({ authors }) => {
               {markdownify(
                 author.content.slice(0, 120),
                 "p",
-                "line-clamp-3 mb-2 text-sm"
+                "line-clamp-3 mb-2 text-sm",
               )}
               <Social
                 className="social-icons"

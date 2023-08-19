@@ -1,7 +1,7 @@
 ---
 title: LogBook
 download: https://gethugothemes.com/products/logbook
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/logbook/site/
 author: Gethugothemes
@@ -19,12 +19,10 @@ category:
 draft: false
 ---
 
-
-## Key Features :
+## Key Features
 
 - Page Speed (93/100)
 - Netlify-Ready
-- Forestry-Ready (CMS)
 - SEO Friendly
 - Reusable Shortcodes
 - Disqus Comments

@@ -1,7 +1,7 @@
 ---
 title: Agen
 download: https://gethugothemes.com/products/agen
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/agen/site/
 author: Gethugothemes
@@ -19,12 +19,11 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 95/100 (Desktop)
 - Fully featured weblog components
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Disqus powered comments
 - Powerful form support
 - Google Map Integrated

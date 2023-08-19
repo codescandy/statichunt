@@ -6,7 +6,7 @@ author: Gethugothemes
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -16,17 +16,17 @@ description: >-
   Touchy is a minimal personal blog theme powered by Hugo. This theme is 100%
   mobile responsive.
 draft: false
-publish_date: '2021-01-06T10:05:54Z'
-update_date: '2023-06-21T07:43:37Z'
+publish_date: "2021-01-06T10:05:54Z"
+update_date: "2023-06-21T07:43:37Z"
 github_star: 6
 github_fork: 9
 ---
-## Key Features :
+
+## Key Features
 
 - Google analytics support
 - CSS and jS bundle with hugo pipe
 - Netlify settings predefine
-- Forestry cms pre-configured
 - GDPR consent enable
 - Google page speed optimized
 - Open graph meta tag

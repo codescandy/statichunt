@@ -1,6 +1,6 @@
-import config from "@config/config.json";
-import useTooltip from "@hooks/useTooltip";
-import { slugify } from "@lib/utils/textConverter";
+import config from "@/config/config.json";
+import useTooltip from "@/hooks/useTooltip";
+import { slugify } from "@/lib/utils/textConverter";
 import Image from "next/image";
 import tools from "../../.json/theme-tools.json";
 
@@ -38,7 +38,7 @@ const ToolsIcon = ({
   const filteredTools = tools.filter((data) =>
     allTools
       .map((tool) => slugify(tool))
-      .includes(slugify(data.frontmatter.title))
+      .includes(slugify(data.frontmatter.title)),
   );
 
   const toolsLength = filteredTools.length;
@@ -69,7 +69,7 @@ const ToolsIcon = ({
                     }
                   />
                 </span>
-              )
+              ),
           )
         : toolsLength >= trim
         ? filteredTools.map(
@@ -93,7 +93,7 @@ const ToolsIcon = ({
                     }
                   />
                 </span>
-              )
+              ),
           )
         : filteredTools.map((icon, i) => (
             <span

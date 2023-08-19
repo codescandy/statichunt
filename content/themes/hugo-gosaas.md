@@ -1,7 +1,7 @@
 ---
 title: Gosaas
 download: https://gethugothemes.com/products/gosaas
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/gosaas/site/
 author: Gethugothemes
@@ -19,12 +19,11 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 87/100 (Desktop)
-- Google analytics  support
+- Google analytics support
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Caching enabled
 - Contact form support
 - Payment Options available

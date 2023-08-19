@@ -1,7 +1,7 @@
 ---
 title: Revolve
 download: https://gethugothemes.com/products/revolve
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/revolve/site/
 author: Gethugothemes
@@ -19,12 +19,11 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 80/100 (Desktop)
 - Google Analytics Support
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Mailchimp Integrated
 - Supports Contact Form (Formspree)
 - Search Functionality With Fues.js

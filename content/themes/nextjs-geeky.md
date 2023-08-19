@@ -15,22 +15,23 @@ cms:
 category:
   - Blog
 draft: false
-publish_date: '2023-01-25T05:19:20Z'
-update_date: '2023-07-05T03:07:09Z'
-github_star: 73
-github_fork: 100
+publish_date: "2023-01-25T05:19:20Z"
+update_date: "2023-07-05T03:07:09Z"
+github_star: 85
+github_fork: 112
 ---
+
 ## Key Features:
 
-* Google PageSpeed Score 100 (Desktop)
-* Dark and Light Mode 
-* Supports Contact Form
-* Disqus Comment Support
-* Related Posts Suggestion
-* Semantic HTML Document Structure
-* Custom Logo Support
-* Includes All SCSS Files
-* Supports Google Analytics
-* Image Optimized With Next/image
-* 100% Responsive Design
-* MDX Support with many built-in custom components and much more... 
+- Google PageSpeed Score 100 (Desktop)
+- Dark and Light Mode
+- Supports Contact Form
+- Disqus Comment Support
+- Related Posts Suggestion
+- Semantic HTML Document Structure
+- Custom Logo Support
+- Includes All SCSS Files
+- Supports Google Analytics
+- Image Optimized With Next/image
+- 100% Responsive Design
+- MDX Support with many built-in custom components and much more...

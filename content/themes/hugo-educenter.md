@@ -7,7 +7,7 @@ author_link: https://themefisher.com
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -16,20 +16,19 @@ date: 2021-08-29T15:28:21.000Z
 description: >-
   Educenter is an educational website template powered by Hugo. It can be used
   as an online teaching platform, school and university website.
-publish_date: '2020-01-19T09:18:03Z'
-update_date: '2023-06-21T06:54:42Z'
-github_star: 177
-github_fork: 300
+publish_date: "2020-01-19T09:18:03Z"
+update_date: "2023-07-20T07:16:50Z"
+github_star: 182
+github_fork: 299
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Multiple language support (Fr, En)
 - Google analytics support
 - CSS and Js bundle with hugo pipe
 - Netlify settings predefine
-- Forestry cms pre-configured
 - Multiple author available
 - Contact form Support
 - Mailchimp integrate

@@ -1,17 +1,17 @@
-import HomeCategory from "@components/HomeCategory";
-import Intro from "@components/Intro";
-import Sidebar from "@components/Sidebar";
-import useFilterData from "@hooks/useFilterData";
-import usePricingFilter from "@hooks/usePricingFilter";
-import useThemesSort from "@hooks/useThemesSort";
-import Base from "@layouts/Baseof";
-import Announcement from "@layouts/components/Announcement";
-import HomeSort from "@layouts/components/HomeSort";
-import Themes from "@layouts/Themes";
-import { getListPage, getSinglePage } from "@lib/contentParser";
-import setOthersCategory from "@lib/setOthersCategory";
-import { sortOrder } from "@lib/utils/sortFunctions";
-import { slugify } from "@lib/utils/textConverter";
+import HomeCategory from "@/components/HomeCategory";
+import Intro from "@/components/Intro";
+import Sidebar from "@/components/Sidebar";
+import useFilterData from "@/hooks/useFilterData";
+import usePricingFilter from "@/hooks/usePricingFilter";
+import useThemesSort from "@/hooks/useThemesSort";
+import Base from "@/layouts/Baseof";
+import Themes from "@/layouts/Themes";
+import Announcement from "@/layouts/components/Announcement";
+import HomeSort from "@/layouts/components/HomeSort";
+import { getListPage, getSinglePage } from "@/lib/contentParser";
+import setOthersCategory from "@/lib/setOthersCategory";
+import { sortOrder } from "@/lib/utils/sortFunctions";
+import { slugify } from "@/lib/utils/textConverter";
 import { useFilterContext } from "context/filterContext";
 import { useState } from "react";
 
@@ -27,7 +27,7 @@ const Home = ({
   const [showIntro, SetShowIntro] = useState(true);
   const themesWithOthersCategory = setOthersCategory(themes);
   const { sortedThemes, handleSortThemes, sortValue } = useThemesSort(
-    themesWithOthersCategory
+    themesWithOthersCategory,
   );
 
   const {
@@ -47,9 +47,9 @@ const Home = ({
         ? filterArray.find((type) =>
             theme.frontmatter[params]
               ?.map((data) => slugify(data))
-              .includes(slugify(type))
+              .includes(slugify(type)),
           )
-        : sortedThemes
+        : sortedThemes,
     );
     return filterData;
   };
@@ -65,7 +65,7 @@ const Home = ({
     filterCategory,
     arrayCategory,
     arrayFree,
-    arrayPremium
+    arrayPremium,
   );
 
   // final themes filtering

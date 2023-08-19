@@ -1,6 +1,6 @@
-import ImageFallback from "@components/ImageFallback";
-import ToolsIcon from "@components/ToolsIcon";
-import { simplifyURL } from "@lib/utils/textConverter";
+import ImageFallback from "@/components/ImageFallback";
+import ToolsIcon from "@/components/ToolsIcon";
+import { simplifyURL } from "@/lib/utils/textConverter";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
@@ -15,7 +15,7 @@ const Examples = ({ examples, customRowClass, customColClass }) => {
     function showViewport() {
       var width = Math.max(
         document.documentElement.clientWidth,
-        window.innerWidth || 0
+        window.innerWidth || 0,
       );
       setWindowSize(width);
     }

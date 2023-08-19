@@ -7,7 +7,7 @@ author_link: https://themefisher.com
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -15,17 +15,17 @@ category:
 date: 2019-05-13T08:18:18.000Z
 description: Kross Creative Portfolio Template
 draft: false
-publish_date: '2019-05-13T08:18:18Z'
-update_date: '2023-06-21T06:56:11Z'
-github_star: 267
-github_fork: 385
+publish_date: "2019-05-13T08:18:18Z"
+update_date: "2023-06-21T06:56:11Z"
+github_star: 268
+github_fork: 384
 ---
-## Key Features :
+
+## Key Features
 
 - Google analytics support
 - CSS and JS bundle with hugo pipe
 - Netlify settings predefine
-- Forestry cms pre-configured
 - Contact form Support
 - GDPR consent enable
 - Google map support

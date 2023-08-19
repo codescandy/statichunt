@@ -15,8 +15,8 @@ category:
   - Saas
   - Dashboard
 draft: false
-publish_date: '2023-03-01T13:05:24Z'
-update_date: '2023-05-24T06:14:57Z'
-github_star: 31
-github_fork: 5
+publish_date: "2023-03-01T13:05:24Z"
+update_date: "2023-08-02T08:05:42Z"
+github_star: 41
+github_fork: 7
 ---

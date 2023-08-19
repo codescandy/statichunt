@@ -8,7 +8,7 @@ thumbnail: themes/themefisher-hargo-hugo.jpg
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -19,12 +19,13 @@ description: >-
   Hargo is an E-commerce theme powered by Hugo and Snipcart. It's fully
   functional, users can order items and also payments throw this theme.
 draft: false
-publish_date: '2019-10-20T04:33:46Z'
-update_date: '2023-07-13T09:16:53Z'
-github_star: 110
+publish_date: "2019-10-20T04:33:46Z"
+update_date: "2023-07-13T09:16:53Z"
+github_star: 116
 github_fork: 155
 ---
-## Key Features :
+
+## Key Features
 
 - Google analytics support
 - CSS and Js bundle with hugo pipe

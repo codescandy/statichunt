@@ -17,13 +17,13 @@ css:
 category:
   - Business
 draft: false
-publish_date: '2020-08-25T07:05:28Z'
-update_date: '2023-01-09T15:36:44Z'
-github_star: 405
-github_fork: 278
+publish_date: "2020-08-25T07:05:28Z"
+update_date: "2023-01-09T15:36:44Z"
+github_star: 408
+github_fork: 282
 ---
 
-## Key Features :
+## Key Features
 
 - Responsive Ready.
 - Powered by Bootstrap 4.
@@ -32,5 +32,4 @@ github_fork: 278
 - Easy Customization.
 - FabForm.io static website form.
 - Google Analytics.
-- Forestry Integrated.
 - Crafted for Personal Portfolio

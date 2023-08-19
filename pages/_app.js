@@ -1,5 +1,5 @@
-import config from "@config/config.json";
-import theme from "@config/theme.json";
+import config from "@/config/config.json";
+import theme from "@/config/theme.json";
 import { JsonContext } from "context/filterContext";
 import { SearchContext } from "context/searchContext";
 import { ThemeProvider } from "next-themes";
@@ -20,7 +20,7 @@ const App = ({ Component, pageProps }) => {
     fetch(
       `https://fonts.googleapis.com/css2?family=${pf}${
         sf ? "&family=" + sf : ""
-      }&display=swap`
+      }&display=swap`,
     ).then((res) => res.text().then((css) => setFontcss(css)));
   }, [pf, sf]);
 

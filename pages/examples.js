@@ -1,9 +1,9 @@
-import Base from "@layouts/Baseof";
-import Examples from "@layouts/Examples";
-import MobileSidebar from "@layouts/partials/MobileSidebar";
-import { getListPage, getSinglePage } from "@lib/contentParser";
-import { sortByDate, sortByWeight } from "@lib/utils/sortFunctions";
-import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
+import Base from "@/layouts/Baseof";
+import Examples from "@/layouts/Examples";
+import MobileSidebar from "@/layouts/partials/MobileSidebar";
+import { getListPage, getSinglePage } from "@/lib/contentParser";
+import { sortByDate, sortByWeight } from "@/lib/utils/sortFunctions";
+import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import { useState } from "react";
 
 const Home = ({ frontmatter, content, examples }) => {
@@ -25,10 +25,10 @@ const Home = ({ frontmatter, content, examples }) => {
   // sort allSsg by length of examples
   const sortedSg = allSsg.sort((a, b) => {
     const aLength = examplesSortedByWeight.filter((item) =>
-      item.frontmatter.ssg.map((data) => slugify(data)).includes(a)
+      item.frontmatter.ssg.map((data) => slugify(data)).includes(a),
     ).length;
     const bLength = examplesSortedByWeight.filter((item) =>
-      item.frontmatter.ssg.map((data) => slugify(data)).includes(b)
+      item.frontmatter.ssg.map((data) => slugify(data)).includes(b),
     ).length;
     return bLength - aLength;
   });
@@ -39,7 +39,7 @@ const Home = ({ frontmatter, content, examples }) => {
       : examplesSortedByWeight.filter((item) =>
           item.frontmatter.ssg
             .map((data) => slugify(data))
-            .includes(selectedSsg)
+            .includes(selectedSsg),
         );
 
   return (
@@ -74,7 +74,7 @@ const Home = ({ frontmatter, content, examples }) => {
                 <span>
                   {
                     examplesSortedByWeight.filter((a) =>
-                      a.frontmatter.ssg.map((b) => slugify(b)).includes(item)
+                      a.frontmatter.ssg.map((b) => slugify(b)).includes(item),
                     ).length
                   }
                 </span>

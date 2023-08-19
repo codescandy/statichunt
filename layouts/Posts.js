@@ -1,7 +1,7 @@
-import ImageFallback from "@components/ImageFallback";
-import config from "@config/config.json";
-import { dateFormat } from "@lib/utils/dateFormat";
-import { humanize, slugify } from "@lib/utils/textConverter";
+import ImageFallback from "@/components/ImageFallback";
+import config from "@/config/config.json";
+import { dateFormat } from "@/lib/utils/dateFormat";
+import { humanize, slugify } from "@/lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
 import Gravatar from "react-gravatar";
@@ -63,12 +63,12 @@ const Posts = ({ posts, authors, customRowClass, customColClass }) => {
                     .filter((author) =>
                       post.frontmatter.authors
                         .map((author) => slugify(author))
-                        .includes(slugify(author.frontmatter.title))
+                        .includes(slugify(author.frontmatter.title)),
                     )
                     .map((author, i) => (
                       <Link
                         href={`/blog/authors/${slugify(
-                          author.frontmatter.title
+                          author.frontmatter.title,
                         )}`}
                         key={`author-${i}`}
                         className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary"

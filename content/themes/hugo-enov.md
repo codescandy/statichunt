@@ -1,7 +1,7 @@
 ---
 title: Enov
 download: https://gethugothemes.com/products/enov
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/enov/site/
 author: Gethugothemes
@@ -19,12 +19,11 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 94/100 (Desktop)
-- Google analytics  support
+- Google analytics support
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Multiple language support
 - Multiple authors are available
 - Caching enabled

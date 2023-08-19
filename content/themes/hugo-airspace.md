@@ -7,26 +7,26 @@ author_link: https://themefisher.com
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
   - Portfolio
 date: 2018-01-09T22:28:21.000Z
 description: Airspace Hugo theme for multipurpose use, like Portfolio, Blog, Business.
-publish_date: '2018-01-09T22:28:21Z'
-update_date: '2023-06-21T06:50:57Z'
-github_star: 319
-github_fork: 514
+publish_date: "2018-01-09T22:28:21Z"
+update_date: "2023-07-20T06:52:07Z"
+github_star: 322
+github_fork: 516
 draft: false
 ---
-## Key Features :
+
+## Key Features
 
 - Multiple language support (Fr, En)
 - Google analytics support
 - CSS and JS bundle with Hugo Pipe
 - Netlify settings predefine
-- Forestry cms pre-configured
 - Multiple authors available
 - Contact form support
 - GDPR consent support

@@ -7,7 +7,7 @@ author_link: https://themefisher.com
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -18,18 +18,17 @@ description: >-
   Parsa is a personal blog theme powered by Hugo. It has two homepages. Also can
   be used for portfolio template1
 draft: false
-publish_date: '2019-05-15T08:33:57Z'
-update_date: '2023-06-21T06:45:50Z'
+publish_date: "2019-05-15T08:33:57Z"
+update_date: "2023-06-21T06:45:50Z"
 github_star: 152
-github_fork: 326
+github_fork: 324
 ---
 
-## Key Features :
+## Key Features
 
 - Google analytics ssupport
 - CSS and JS bundle with hugo pipe
 - Netlify settings predefine
-- Forestry cms pre-configured
 - Contact form Support
 - Search by fuse.js
 - Instagram feed available

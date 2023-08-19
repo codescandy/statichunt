@@ -3,6 +3,7 @@ import ora from "ora";
 import path from "path";
 import puppeteer from "puppeteer";
 import getExamples from "../.json/examples.json" assert { type: "json" };
+
 const spinner = ora("Loading");
 const imagesFolder = path.join(process.cwd(), "/public/examples");
 
@@ -47,7 +48,7 @@ const captureScreenshot = async (website, slug, overwrite) => {
     await page.evaluate(
       (cookieBox) =>
         document.querySelectorAll(cookieBox).forEach((el) => el.remove()),
-      cookieBox
+      cookieBox,
     );
 
     await page.screenshot({ path: imagePath });
@@ -68,5 +69,5 @@ const generateScreenshots = async (examples, overwrite) => {
 
 generateScreenshots(
   examples,
-  false // overwrite value
+  false, // overwrite value
 );

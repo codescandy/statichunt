@@ -1,11 +1,11 @@
-import ImageFallback from "@components/ImageFallback";
-import Share from "@components/Share";
-import Base from "@layouts/Baseof";
-import { dateFormat } from "@lib/utils/dateFormat";
-import { readingTime } from "@lib/utils/readingTime";
-import { similerPosts } from "@lib/utils/similarItems";
-import { humanize, markdownify, slugify } from "@lib/utils/textConverter";
-import shortcodes from "@shortcodes/all";
+import ImageFallback from "@/components/ImageFallback";
+import Share from "@/components/Share";
+import Base from "@/layouts/Baseof";
+import { dateFormat } from "@/lib/utils/dateFormat";
+import { readingTime } from "@/lib/utils/readingTime";
+import { similerPosts } from "@/lib/utils/similarItems";
+import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
+import shortcodes from "@/shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
 import Link from "next/link";
@@ -96,7 +96,7 @@ const PostSingle = ({
                   .filter((author) =>
                     frontmatter.authors
                       .map((author) => slugify(author))
-                      .includes(slugify(author.frontmatter.title))
+                      .includes(slugify(author.frontmatter.title)),
                   )
                   .map((author, i) => (
                     <div
@@ -121,7 +121,7 @@ const PostSingle = ({
                       <h5 className="mb-4">
                         <Link
                           href={`/blog/authors/${slugify(
-                            author.frontmatter.title
+                            author.frontmatter.title,
                           )}`}
                           className="hover:text-primary dark:hover:text-darkmode-primary"
                         >
@@ -170,12 +170,12 @@ const PostSingle = ({
                             .filter((author) =>
                               post.frontmatter.authors
                                 .map((author) => slugify(author))
-                                .includes(slugify(author.frontmatter.title))
+                                .includes(slugify(author.frontmatter.title)),
                             )
                             .map((author, i) => (
                               <Link
                                 href={`/blog/authors/${slugify(
-                                  author.frontmatter.title
+                                  author.frontmatter.title,
                                 )}`}
                                 key={`author-${i}`}
                                 className="inline-block font-bold text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary"

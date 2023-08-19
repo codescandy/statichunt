@@ -1,8 +1,8 @@
-import Social from "@components/Social";
-import config from "@config/config.json";
-import menu from "@config/menu.json";
-import social from "@config/social.json";
-import { markdownify, slugify } from "@lib/utils/textConverter";
+import Social from "@/components/Social";
+import config from "@/config/config.json";
+import menu from "@/config/menu.json";
+import social from "@/config/social.json";
+import { markdownify, slugify } from "@/lib/utils/textConverter";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -32,7 +32,7 @@ const Footer = () => {
                     <Link
                       href={page.url}
                       className={`text-sm capitalize text-light hover:text-white footer-${slugify(
-                        page.page
+                        page.page,
                       )}`}
                       rel={page.rel}
                     >

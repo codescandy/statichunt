@@ -1,7 +1,7 @@
 ---
 title: Agico
 download: https://gethugothemes.com/products/agico
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/agico/site/
 author: Gethugothemes
@@ -19,11 +19,10 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Bootstrap Based
 - Netlify Pre Configured
-- Forestry Pre Configured
 - Multilanguage Support
 - Google Mpas Integration
 - Search Js Included

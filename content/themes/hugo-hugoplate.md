@@ -18,13 +18,13 @@ description: >-
   providing everything you need to jumpstart your Hugo project and save valuable
   time.
 draft: false
-publish_date: '2023-05-25T10:41:33Z'
-update_date: '2023-07-12T08:01:56Z'
-github_star: 17
-github_fork: 3
+publish_date: "2023-05-25T10:41:33Z"
+update_date: "2023-08-07T02:52:49Z"
+github_star: 76
+github_fork: 17
 ---
 
-## Key Features :
+## Key Features
 
 - Multi-Authors Support
 - Multilingual Support

@@ -7,7 +7,7 @@ author_link: https://statichunt.com/
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -22,21 +22,20 @@ description: >-
   This personal blog template features a clean design pattern that beautifully
   presents your posts. Moreover, the neatly designed spacing,  carefully
   selected font, and quick loading speed make it a perfectly expandable theme.
-publish_date: '2021-11-07T03:46:32Z'
-update_date: '2023-06-21T07:45:58Z'
-github_star: 8
+publish_date: "2021-11-07T03:46:32Z"
+update_date: "2023-08-03T03:22:45Z"
+github_star: 9
 github_fork: 9
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google analytics support
 - Image optimize with Hugo pipe
 - Multiple language support(Fr, En)
 - CSS and Js bundle with Hugo pipe
 - Netlify settings predefine
-- Forestry cms pre-configured
 - Google font loads from Webfont loader
 - single author available
 - Caching enabled

@@ -7,7 +7,7 @@ author_link: https://statichunt.com/
 ssg:
   - Hugo
 cms:
-  - Forestry
+  - Markdown
 css:
   - Bootstrap
 category:
@@ -23,14 +23,14 @@ description: >-
   The template is wrapped up with features to create your next adventure or
   travel blog. Entice your visitors to read every single content via Milingo
   Hugo by putting your focus on consistent blogging.
-publish_date: '2021-11-06T05:57:35Z'
-update_date: '2023-06-21T07:46:32Z'
+publish_date: "2021-11-06T05:57:35Z"
+update_date: "2023-06-21T07:46:32Z"
 github_star: 7
 github_fork: 0
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Image optimize with Hugo pipe
 - Google font loads from Webfont loader
@@ -47,5 +47,4 @@ draft: false
 - Google page speed optimized
 - Open graph meta tag
 - Twitter card meta tag
-- Forestry cms pre-configured
 - Google analytics, Baidu analytics, Counter analytics, Matomo analytics, Plausible analytics Support

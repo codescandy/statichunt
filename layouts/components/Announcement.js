@@ -1,5 +1,5 @@
-import config from "@config/config.json";
-import { markdownify, slugify } from "@lib/utils/textConverter";
+import config from "@/config/config.json";
+import { markdownify, slugify } from "@/lib/utils/textConverter";
 import { useEffect, useState } from "react";
 import { CgCloseO } from "react-icons/cg";
 import { FaRegBell } from "react-icons/fa";
@@ -9,7 +9,7 @@ const Announcement = () => {
   const { enable, name, content, link } = config.announcement;
   // cookie bar
   const [announcementClose, setAnnouncementClose] = useCookie(
-    slugify(name) + "-announcement"
+    slugify(name) + "-announcement",
   );
   const [announcementCloseState, setAnnouncementCloseState] = useState(true);
 

@@ -1,10 +1,10 @@
 ---
 title: About
 meta_title: About - Statichunt
-description: 
+description:
 draft: false
-
 ---
+
 Statichunt is an open-source JAMStack directory that enlists hundreds of themes, starters, and tools for static site generators submitted by the community.
 
 <br/>
@@ -26,31 +26,16 @@ Statichunt is an open-source JAMStack directory that enlists hundreds of themes,
 
 <br/>
 
-## 🎯 Next 3 Months Roadmap - (Deadline 30th June 2023)
-
-<Timeline>
-
-<Event date="" title=" 🖼️  500+ High-Quality JAMStack Themes">Added **387/500** Themes. </Event>
-<Event date="" title=" ⚙️  150+ JAMStack Tools & Resources "> Added **107/150** Tools.</Event>
-<Event date="" title=" 🖼️  Release 3 High-Quality JAMStack Themes Made By Statichunt Team ">Released **0/3** Themes. </Event>
-<Event date="" title=" 💡 100+ JAMStack Example Websites ">Added **65/100** Example Websites. </Event>
-<Event date="" title=" ✍️ Introduce Blog"> ✅ Done </Event>
-<Event date="" title=" 🔍 Introduce Search Functionality"> ✅ Done </Event>
-<Event date="" title=" 🚀 Launch on Producthunt"> </Event>
-
-</Timeline>
-
 ## Feedback
 
 We welcome your constructive input. Please tell us what makes this project exceptional. Also, please share your feedback on this project and assist us in upgrading.
 
 If you love this project don't forget to click the "Star" button on [Github](https://github.com/statichunt/statichunt).
 
-## Sponsors 
+## Sponsors
 
 Support and involved with this project by [becoming a sponsor](/become-a-sponsor).
 
-
 ## Acknowledgments
 
-This site is powered by <a href="https://nextjs.org/" target="_blank" rel="nofollow noopener noreferrer">Nextjs</a>, Deployed by <a href="https://vercel.com/" target="_blank" rel="nofollow noopener noreferrer">Vercel</a>, and Content Management by <a href="https://forestry.io/" target="_blank" rel="nofollow noopener noreferrer">Forestry</a>, Maintainer <a href="https://zeon.studio/" target="_blank">Zeon Studio</a> team.
+This site is powered by <a href="https://nextjs.org/" target="_blank" rel="nofollow noopener noreferrer">Nextjs</a>, Deployed by <a href="https://vercel.com/" target="_blank" rel="nofollow noopener noreferrer">Vercel</a>, and Content Management by <a href="https://tina.io/" target="_blank" rel="nofollow noopener noreferrer">Tina</a>, Maintainer <a href="https://zeon.studio/" target="_blank">Zeon Studio</a> team.

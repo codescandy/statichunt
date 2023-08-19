@@ -1,13 +1,13 @@
 ---
 title: Wallet
 download: https://gethugothemes.com/products/wallet
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/wallet/site/
 author: Gethugothemes
 author_link: https://gethugothemes.com
 date: 2023-01-11T00:00:00.000Z
-description: Wallet Hugo theme comes with a one-of-a-kind design that is ideal for corporate, business, or financial service websites.  
+description: Wallet Hugo theme comes with a one-of-a-kind design that is ideal for corporate, business, or financial service websites.
 ssg:
   - Hugo
 css:
@@ -19,12 +19,11 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Page Speed (96/100)
 - Multilingual and i18n support (ES, EN)
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Google Analytics support
 - Multi-Author Support
 - Supports Contact Form (Formspree)

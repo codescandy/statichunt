@@ -1,7 +1,7 @@
 ---
 title: Dtox
 download: https://gethugothemes.com/products/dtox
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/dtox/site/
 author: Gethugothemes
@@ -19,12 +19,11 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 82/100 (Desktop)
 - Google Analytics Support
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Multi-Language Support (i18n)
 - Caching Enabled
 - Google Font support

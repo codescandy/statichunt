@@ -1,4 +1,4 @@
-import useWindow from "@hooks/useWindow";
+import useWindow from "@/hooks/useWindow";
 import { useFilterContext } from "context/filterContext";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -55,7 +55,7 @@ const PricingFilter = ({ filterFree, filterPremium }) => {
               <button
                 onClick={() =>
                   setArrayPremium(
-                    arrayPremium.length === 0 ? filterPremium : []
+                    arrayPremium.length === 0 ? filterPremium : [],
                   )
                 }
                 className={`sidebar-checkbox ${

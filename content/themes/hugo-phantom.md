@@ -1,7 +1,7 @@
 ---
 title: Phantom
 download: https://gethugothemes.com/products/phantom
-github: 
+github:
 price: 79
 demo: https://demo.gethugothemes.com/phantom/site/
 author: Gethugothemes
@@ -19,13 +19,12 @@ category:
 draft: false
 ---
 
-## Key Features :
+## Key Features
 
 - Google PageSpeed Score 100/100 (Desktop)
 - Google Analytics Support
 - Resume Page
 - Netlify Settings Predefine
-- Forestry CMS pre-configured
 - Supports Contact Form (Formspree)
 - 100% Responsive Design
 - Semantic HTML Document Structure

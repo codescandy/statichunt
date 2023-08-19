@@ -18,12 +18,12 @@ category:
   - Saas
 draft: false
 ---
-## Key Features :
+
+## Key Features
 
 - Speed Optimized
 - SEO-Ready
 - Netlify-Ready
-- Forestry-Ready(CMS)
 - CSS & JS Bundle With Hugo Pipe
 - Reusable Shortcodes
 - Customize Everything

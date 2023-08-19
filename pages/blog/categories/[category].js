@@ -1,9 +1,9 @@
-import Base from "@layouts/Baseof";
-import MobileSidebar from "@layouts/partials/MobileSidebar";
-import Posts from "@layouts/Posts";
-import { getSinglePage } from "@lib/contentParser";
-import { getTaxonomy } from "@lib/taxonomyParser";
-import { humanize, slugify } from "@lib/utils/textConverter";
+import Base from "@/layouts/Baseof";
+import MobileSidebar from "@/layouts/partials/MobileSidebar";
+import Posts from "@/layouts/Posts";
+import { getSinglePage } from "@/lib/contentParser";
+import { getTaxonomy } from "@/lib/taxonomyParser";
+import { humanize, slugify } from "@/lib/utils/textConverter";
 
 // category page
 const Category = ({ category, posts, authors }) => {
@@ -49,8 +49,8 @@ export const getStaticProps = ({ params }) => {
   const posts = getSinglePage("content/blog");
   const filterPosts = posts.filter((post) =>
     post.frontmatter.categories.find((category) =>
-      slugify(category).includes(params.category)
-    )
+      slugify(category).includes(params.category),
+    ),
   );
   const authors = getSinglePage("content/blog-authors");
 
